@@ -1,0 +1,28 @@
+.createdTasks {
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.finishedTasks {
+  font-weight: bold;
+  color: var(--purple);
+
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.createdTasks>span,
+.finishedTasks>span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.createdTasks>span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+}
