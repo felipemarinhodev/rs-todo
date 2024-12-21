@@ -1,0 +1,26 @@
+.button {
+  font-size: var(--font-md);
+  font-weight: bold;
+  color: var(--gray-100);
+
+  background: var(--blue-dark);
+  padding: 1rem;
+
+  border-radius: .5rem;
+  border: none;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button:hover {
+  background: var(--blue);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
