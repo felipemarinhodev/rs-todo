@@ -1,0 +1,26 @@
+.list {
+  width: 100%;
+
+  padding-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px;
+}
+
+.list>p {
+  font-weight: bold;
+}
+
+.list>p>span {
+  font-weight: 400;
+}
+
+.list>image {
+  width: 3.5rem;
+  height: 3.5rem;
+}
