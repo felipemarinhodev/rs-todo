@@ -1,6 +1,9 @@
 .createdTasks {
   font-weight: bold;
   color: var(--blue);
+  display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 
 .finishedTasks {
